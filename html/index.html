@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/2752f2460e.js" crossorigin="anonymous"></script>
+    <script src="https://pro.fontawesome.com/releases/v6.0.0-beta3/js/all.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="top-header__containt">
+                        <div class="col-sm-6 col-lg-6">
+                            <div class="top-header__deals">
+                                Giảm giá 20% dịp lễ 20/10
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-6">
+                            <div class="top-header__menus">
+                                <div class="top-header__menus-languages">
+                                    <i class="fa-solid fa-earth-americas"></i> Tiếng Việt
+                                </div>
+                                <div class="top-header__menus-store">
+                                    <i class="fa-light fa-location-dot"></i> Cửa hàng
+                                </div>
+                                <div class="top-header__menus-account">
+                                    <i class="fa-light fa-user"></i> Tài khoản
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-header">
+            <div class="container">
+                <div class="row">
+                    <div class="main-header__containt">
+                        <div class="col-sm-3 col-lg-4">
+                            <div class="main-header__img-logo">
+                                <a href="#" class="main-header__logo">
+                                    <img src="../img/logo.png" alt="" srcset="">
+                                </a>
+                                <a href="#" class="main-header__brand">
+                                    <img src="../img/1280px-Casio_logo.svg.png" alt="" srcset="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-5">
+                            <div class="main-header__search">
+                                <form action="#" method="post">
+                                    <div class="main-header__search-box">
+                                        <input class="search-box__input" type="text" name="" id="" placeholder="&#128269; Nhập từ khóa">
+                                        <select class="search-box__dropdown" name="category" id="cars">
+                                            <option value="all">Tất cả danh mục</option>
+                                            <option value="1">Casio</option>
+                                            <option value="2">G-Sock</option>
+                                            <option value="3">Apple Watch</option>
+                                        </select>
+                                        <button class="search-box__submit" type="submit">Tìm Kiếm</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-lg-3">
+                            <div class="main-header__service">
+                                <div class="main-header__service-list">
+                                    <a href="#" class="service-list__item">
+                                        <div class="service-list__item-icon">
+                                            <i class="fa-regular fa-headset"></i>
+                                        </div>
+                                        <div class="service-list__item-info">
+                                            <div class="item-info__title">Hotline</div>
+                                            <div class="item-info__content">0934 003 403</div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="service-list__item">
+                                        <div class="service-list__item-icon">
+                                            <i class="fa-light fa-cart-shopping"></i>
+                                        </div>
+                                        <div class="service-list__item-info">
+                                            <div class="item-info__title">Giỏ hàng</div>
+                                            <div class="item-info__content">0.00</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-header">
+            <div class="container">
+                <div class="row">
+                    <div class="bottom-header__containt">
+                        <div class="col-12 col-lg-3 p-0">
+                            <select class="bottom-header__category"><i class="fa-light fa-bars"></i>
+                                <option value="all">DANH MỤC SẢN PHẨM</option>
+                                <option value="1">Casio</option>
+                                <option value="2">G-Sock</option>
+                                <option value="3">Apple Watch</option>
+                            </select>
+
+                        </div>
+
+                        <div class="col-0 col-lg-9">
+                            <div class="bottom-header__menus">
+                                <div class="bottom-header__menus-list">
+                                    <a href="#" class="menus-list__item">TRANG CHỦ</a>
+                                    <a href="#" class="menus-list__item">GIỚI THIỆU</a>
+                                    <a href="#" class="menus-list__item">LIMITED</a>
+                                    <a href="#" class="menus-list__item">KHUYẾN MÃI</a>
+                                    <a href="#" class="menus-list__item">TIN TỨC</a>
+                                    <a href="#" class="menus-list__item">LIÊN HỆ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <select class="bottom-header__list-menus" onchange="location = this.value;">
+                            <option class="menus-list__item" value="#">TRANG CHỦ</option>
+                            <option class="menus-list__item" value="#">GIỚI THIỆU</option>
+                            <option class="menus-list__item" value="#">LIMITED</option>
+                            <option class="menus-list__item" value="#">KHUYẾN MÃI</option>
+                            <option class="menus-list__item" value="#"> TIN TỨC</option>
+                            <option class="menus-list__item" value="#"> LIÊN HỆ</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-lg-12 p-0">
+                        <div class="banner__container">
+                            <!-- Full-width images with number and caption text -->
+                            <a style="display: block;" href="#" class="banner__item">
+                                <img src="../img/banner-1.jpg" style="width:100%">
+                            </a>
+
+                            <a style="display: none;" href="#" class="banner__item">
+                                <img src="../img/banner-2.jpg" style="width:100%">
+                            </a>
+
+                            <a style="display: none;" href="#" class="banner__item">
+                                <img src="../img/banner-3.jpg" style="width:100%">
+                            </a>
+
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <!-- The dots/circles -->
+                            <div class="banner__list-dot" style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="policy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="policy__containt">
+                            <div class="policy__icon"><i class="fa-light fa-medal"></i></div>
+                            <div class="policy__info">
+                                <div class="policy__info-title">
+                                    Chính hãng 100% Casio
+                                </div>
+                                <div class="policy__info-content">
+                                    Nhà phân phối ủy quyền Casio
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="policy__containt">
+                            <div class="policy__icon"><i class="fa-light fa-truck-clock"></i></div>
+                            <div class="policy__info">
+                                <div class="policy__info-title">
+                                    Giao hàng toàn quốc
+                                </div>
+                                <div class="policy__info-content">
+                                    FreeShip với HĐ trên 1 triệu
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="policy__containt">
+                            <div class="policy__icon"><i class="fa-light fa-shield-check"></i></div>
+                            <div class="policy__info">
+                                <div class="policy__info-title">
+                                    Bảo hành chính hãng
+                                </div>
+                                <div class="policy__info-content">
+                                    BH 5 năm G-Shock & Baby-G
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4">
+                        <a href="#" class="category__contain-1">
+                            <div class="category__bg-name">
+                                <div class="category__name">
+                                    FASHION
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4">
+                        <a href="#" class="category__contain-2">
+                            <div class="category__bg-name">
+                                <div class="category__name">
+                                    GBD - H1000
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4">
+                        <a href="#" class="category__contain-3">
+                            <div class="category__bg-name">
+                                <div class="category__name">
+                                    PAIR WATCH
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hot-product">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-0 col-lg-6 p-0 ">
+                        <div class="hot-product__info-contain">
+                            <div style="display: block;" class="hot-product__info">
+                                <div class="hot-product__info-title">Sản phẩm
+                                    <span style="color: orange;">HOT</span>
+                                </div>
+                                <div class="hot-product__info-brand">G-Shock</div>
+                                <div class="hot-product__info-model">
+                                    <div class="info-model__type">G-SQUAD</div>
+                                    <div class="info-model__name">GBD-H1000</div>
+                                </div>
+                                <div class="hot-product__info-price">Giá: <span style="color: red;">4.700.000 đ</span>
+                                </div>
+                                <a href="#" class="hot-product__info-seemore">XEM CHI TIẾT</a>
+                                <div class="hot-product__info-control">
+                                    <a class="info-control__prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="info-control__next" onclick="plusSlides(1)">&#10095;</a>
+
+                                </div>
+                            </div>
+
+                            <div style="display: none;" class="hot-product__info">
+                                <div class="hot-product__info-title">Sản phẩm
+                                    <span style="color: orange;">HOT</span>
+                                </div>
+                                <div class="hot-product__info-brand">T-Shock</div>
+                                <div class="hot-product__info-model">
+                                    <div class="info-model__type">G-SQUAD</div>
+                                    <div class="info-model__name">GBD-H1000</div>
+                                </div>
+                                <div class="hot-product__info-price">Giá: <span style="color: red;">5.700.000
+                                        đ</span>
+                                </div>
+                                <a href="#" class="hot-product__info-seemore">XEM CHI TIẾT</a>
+                                <div class="hot-product__info-control">
+                                    <a class="info-control__prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="info-control__next" onclick="plusSlides(1)">&#10095;</a>
+
+                                </div>
+                            </div>
+
+                            <div style="display: none;" class="hot-product__info">
+                                <div class="hot-product__info-title">Sản phẩm
+                                    <span style="color: orange;">HOT</span>
+                                </div>
+                                <div class="hot-product__info-brand">Y-Shock</div>
+                                <div class="hot-product__info-model">
+                                    <div class="info-model__type">G-SQUAD</div>
+                                    <div class="info-model__name">GBD-H1000</div>
+                                </div>
+                                <div class="hot-product__info-price">Giá: <span style="color: red;">6.700.000
+                                        đ</span>
+                                </div>
+                                <a href="#" class="hot-product__info-seemore">XEM CHI TIẾT</a>
+                                <div class="hot-product__info-control">
+                                    <a class="info-control__prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="info-control__next" onclick="plusSlides(1)">&#10095;</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="brand-list">
+                            <a href="#" class="brand-list__item actives">
+                                <img src="../img/brand-1.png" alt="" srcset="">
+                            </a>
+                            <a href="#" class="brand-list__item">
+                                <img src="../img/brand-2.png" alt="" srcset="">
+                            </a>
+                            <a href="#" class="brand-list__item">
+                                <img src="../img/brand-3.png" alt="" srcset="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="new-product">
+            <div class="container">
+                <div class="row">
+                    <div class="new-product__header">
+                        <div class="col-lg-6 p-0">
+                            <div class="new-product__title">Sản phẩm mới</div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="new-product__control">
+                                <a class="new-product__control-prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="new-product__control-next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                                <div class="cart-item__new">Mới</div>
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+
+
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                                <div class="cart-item__new">Mới</div>
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+
+
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                                <div class="cart-item__new">Mới</div>
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+
+
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                                <div class="cart-item__new">Mới</div>
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="selling-product">
+            <div class="container">
+                <div class="row">
+                    <div class="selling-product__header">
+                        <div class="col-lg-6 p-0">
+                            <div class="selling-product__title">Sản phẩm bán chạy</div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="selling-product__control">
+                                <a class="selling-product__control-prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="selling-product__control-next" onclick="plusSlides(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+
+
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+
+
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+
+
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+
+
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+
+
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+
+
+                    <div class="new-product__main-list">
+                        <a href="#" class="main-list__cart-item">
+                            <div class="cart-item__img">
+                                <img src="../img/img-1.jfif" alt="" srcset="">
+                            </div>
+                            <div class="cart-item__name">LTP-VT01GL-7B</div>
+                            <div class="cart-item__price">1.058.000 đ</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="style">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6 p-0">
+                        <div class="style__info-contain">
+                            <div class="style__info">
+                                <div class="style__info-title">Phong cách</div>
+                                <div class="style__info-model">
+                                    <div class="info-model__item-active">G - MS</div>
+                                    <div class="info-model__item">G - SQUAD</div>
+                                    <div class="info-model__item">LIMITED MODELS</div>
+                                </div>
+                            </div>
+                            <div class="style__bg-seedetails">
+                                <a href="#" class="style__seedetails">
+                                    XEM CHI TIẾT
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <div class="container">
+                <div class="row">
+                    <div class="news__header">
+                        <div class="col-sm-6">
+                            <div class="news__title">
+                                TIN TỨC & SỰ KIỆN
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="news__seemore">
+                                <a href="#">XEM THÊM</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news__main">
+                        <div class="col-sm-4">
+                            <a href="#" class="news__item">
+                                <div class="news__item-img">
+                                    <img src="../img/img-3.jfif" alt="" srcset="">
+                                </div>
+                                <div class="news__item-date">23/06/2020 11:00</div>
+                                <div class="news__item-title">Mix-Match đồng hồ Casio "thấn sầu" như người đẹp Mỹ Khôi
+                                </div>
+                                <div class="news__item-summary">Cô nàng bật mí để luôn có vẻ ngoài năng động, nổi bật trong những buổi tiệc sôi động ngoài chọn thời trang...</div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="news__items">
+                                <div class="news__contain">
+                                    <div class="news__item-date">23/06/2020 11:00</div>
+                                    <div class="news__item-title">Mix-Match đồng hồ Casio "thấn sầu" như người đẹp Mỹ Khôi
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="news__items">
+                                <div class="news__contain">
+                                    <div class="news__item-date">23/06/2020 11:00</div>
+                                    <div class="news__item-title">Mix-Match đồng hồ Casio "thấn sầu" như người đẹp Mỹ Khôi
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="news__items">
+                                <div class="news__contain">
+                                    <div class="news__item-date">23/06/2020 11:00</div>
+                                    <div class="news__item-title">Mix-Match đồng hồ Casio "thấn sầu" như người đẹp Mỹ Khôi
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="news__items">
+                                <div class="news__contain">
+                                    <div class="news__item-date">23/06/2020 11:00</div>
+                                    <div class="news__item-title">Mix-Match đồng hồ Casio "thấn sầu" như người đẹp Mỹ Khôi
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-4">
+                            <a href="#" class="news__items">
+                                <div class="news__contain">
+                                    <div class="news__item-date">23/06/2020 11:00</div>
+                                    <div class="news__item-title">Mix-Match đồng hồ Casio "thấn sầu" như người đẹp Mỹ Khôi
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="news__items">
+                                <div class="news__contain">
+                                    <div class="news__item-date">23/06/2020 11:00</div>
+                                    <div class="news__item-title">Mix-Match đồng hồ Casio "thấn sầu" như người đẹp Mỹ Khôi
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="news__items">
+                                <div class="news__contain">
+                                    <div class="news__item-date">23/06/2020 11:00</div>
+                                    <div class="news__item-title">Mix-Match đồng hồ Casio "thấn sầu" như người đẹp Mỹ Khôi
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="news__items">
+                                <div class="news__contain">
+                                    <div class="news__item-date">23/06/2020 11:00</div>
+                                    <div class="news__item-title">Mix-Match đồng hồ Casio "thấn sầu" như người đẹp Mỹ Khôi
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="register-news">
+            <div class="container">
+                <div class="row">
+                    <div class="register-news__contain">
+                        <div class="col-sm-6">
+                            <div class="register-news__left">
+                                <div class="register-news__icon">
+                                    <i class="fa-regular fa-circle-envelope"></i>
+                                </div>
+                                <div class="register-news__details">
+                                    <div class="register-news__details-title">
+                                        Đăng ký nhận tin
+                                    </div>
+                                    <div class="register-news__details-content">
+                                        Hãy để lại email để nhận ưu đãi nhiều hơn
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <form action="#" method="post">
+                                <div class="register-news__form">
+                                    <input type="text" class="register-news__form-input" placeholder="Nhập địa chỉ email">
+                                    <button type="submit" class="register-news__form-button">Đăng ký</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-bar__top">
+                        <div class="col-sm-3">
+                            <div class="footer-bar__top-info">
+                                <div class="top-info__title">
+                                    ANH KHUÊ SÀI GÒN
+                                </div>
+
+                                <div class="top-info__details">
+                                    <i class="fa-solid fa-location-dot"></i> Số 20 đường 3 tháng 2, P.12, Q.10
+                                </div>
+
+                                <div class="top-info__details">
+                                    Tư vấn mua hàng (8:00 - 17:00):
+                                </div>
+
+                                <div class="top-info__details">
+                                    <i class="fa-solid fa-phone"></i> 0934 003 403
+                                </div>
+
+                                <div class="top-info__details">
+                                    Chăm sóc khách hàng:
+                                </div>
+
+                                <div class="top-info__details">
+                                    <i class="fa-solid fa-phone"></i> 0916 12 17 19
+                                </div>
+
+                                <div class="top-info__details">
+                                    <i class="fa-solid fa-envelope"></i> online@anhkhuesaigon.com.vn
+                                </div>
+
+                                <div class="top-info__details">
+                                    <i class="fa-solid fa-globe"></i> casio.anhkhue.com
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="footer-bar__top-details">
+                                <div class="top-details__title">THÔNG TIN</div>
+                                <div class="top-details__details">
+                                    <a href="#">Liên hệ</a>
+                                </div>
+                                <div class="top-details__details">
+                                    <a href="#">Giới thiệu</a>
+                                </div>
+                                <div class="top-details__details">
+                                    <a href="#">Lịch sử hình thành</a>
+                                </div>
+                                <div class="top-details__details">
+                                    <a href="#">Tầm nhìn sứ mệnh</a>
+                                </div>
+                                <div class="top-details__details">
+                                    <a href="#">Website Casio</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="footer-bar__top-support">
+                                <div class="top-support__title">HỖ TRỢ</div>
+                                <div class="top-support__details">
+                                    <a href="#">Hướng dẫn thanh toán</a>
+                                </div>
+                                <div class="top-support__details">
+                                    <a href="#">Hướng dẫn đổi trả hàng</a>
+                                </div>
+                                <div class="top-support__details">
+                                    <a href="#">Hướng dẫn tìm cửa hàng</a>
+                                </div>
+                                <div class="top-support__details">
+                                    <a href="#">Hướng dẫn mua hàng online</a>
+                                </div>
+                                <div class="top-support__details">
+                                    <a href="#">Chính sách khách hàng thân thiết</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="footer-bar__top-policy">
+                                <div class="top-policy__title">CHÍNH SÁCH</div>
+                                <div class="top-policy__details">
+                                    <a href="#">Quy định đổi trả</a>
+                                </div>
+                                <div class="top-policy__details">
+                                    <a href="#">Quy định bảo hành</a>
+                                </div>
+                                <div class="top-policy__details">
+                                    <a href="#">Trung tâm bảo hành</a>
+                                </div>
+                                <div class="top-policy__details">
+                                    <a href="#">Điều khoản dịch vụ</a>
+                                </div>
+                                <div class="top-policy__details">
+                                    <a href="#">Chính sách bảo mật</a>
+                                </div>
+                                <div class="top-policy__community">
+                                    <div class="top-policy__details">
+                                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    </div>
+                                    <div class="top-policy__details">
+                                        <a href="#"><i class="fa-brands fa-youtube-square"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="footer-bar__main">
+                        <div class="col-sm-4">
+                            <div class="footer-bar__left">
+                                <div class="footer-bar__logo">
+                                    <img src="../img/logo.png" alt="" srcset="">
+                                </div>
+                                <div class="footer-bar__logo">
+                                    <img src="../img/logo.png" alt="" srcset="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer-bar__mid">
+                                <div class="footer-bar__mid-content">&copy; 2019 Anh Khuê. Công ty Cổ Phần Anh Khuê Sài Gòn</div>
+                                <div class="footer-bar__mid-content">Trụ sở chính: 104 Hùng Vương, Phường 2, TP. Tân An, Tỉnh Long An</div>
+                                <div class="footer-bar__mid-content">GCNĐKKD: 1101780735 do Sở KH&ĐT tỉnh Long An cấp ngày 28/10/2016</div>
+                                <div class="footer-bar__mid-content">CN: Số 20 đường 3 tháng 2, Phường 12, Quận 10, TP. HCM</div>
+                                <div class="footer-bar__mid-content">Email: online@anhkhuesaigon.com.vn</div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer-bar__right">
+                                <img src="../img/chungnhan.jfif" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="footer-bar__end">
+                        <div class="col-sm-6">
+                            &copy; Bản quyền thuộc về Anh Khuê Sài Gòn - Developer by ANFLASH TECHNOLOGY
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="footer-bar__end-payment">
+                                <a href="#" class="end-payment__item">
+                                    <div class="end-payment__item-icon">
+                                        <i class="fa-regular fa-circle-dollar"></i>
+                                    </div>
+                                    <div class="end-payment__item-content">
+                                        Tiền mặt
+                                    </div>
+                                </a>
+                                <a href="#" class="end-payment__item">
+                                    <div class="end-payment__item-icon">
+                                        <i class="fa-light fa-arrow-right-arrow-left"></i>
+                                    </div>
+                                    <div class="end-payment__item-content">
+                                        Chuyển khoản
+                                    </div>
+                                </a>
+                                <a href="#" class="end-payment__item">
+                                    <div class="end-payment__item-icon">
+                                        Ale Pay
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
